@@ -9,7 +9,7 @@ node {
 
     stage('Build image') {
   
-       app = docker.build("arjunc2/gitopseks")
+       app = docker.build("arjunc2/test")
     }
 
     stage('Test image') {
